@@ -25,7 +25,10 @@ public enum Status {
     FAILED("failed"),
     BROKEN("broken"),
     PASSED("passed"),
-    SKIPPED("skipped");
+    SKIPPED("skipped"),
+    PENDING("pending"),
+    KNOWN_ISSUES_ONLY("knownissuesonly"),
+    NOT_COVERED("notcovered");
 
     private final String value;
 
